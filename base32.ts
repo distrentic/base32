@@ -28,7 +28,7 @@ const toBase32 = (input: string | Uint8Array): string => {
 
     let numberOfBytes: number;
 
-    switch (offset - input.length) {
+    switch (input.length - offset) {
       case 1: numberOfBytes = 2; break;
       case 2: numberOfBytes = 4; break;
       case 3: numberOfBytes = 5; break;
