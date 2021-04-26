@@ -1,5 +1,7 @@
 # base32
 
+[![npm version](https://badge.fury.io/js/%40distrentic%2Fbase32.svg)](https://badge.fury.io/js/%40distrentic%2Fbase32)
+
 **zero dependency** base32 encoder/decoder based on [`rfc3548`](http://tools.ietf.org/html/rfc3548#section-5)
 
 ## Installation
